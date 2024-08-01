@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homebanner{
+    background-image: url(image/bg.jpg); 
+    height: 100vh;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    padding: 20px;
+    background-color: #00000082;
+    border-radius: 10px;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+}
+header{
+    background-color: rgb(6, 112, 6);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+.pagelink ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.pagelink ul li{
+    /* border: 1px solid red; */
+    /* flex: 1; */
+    padding: 0 10px;
+}
+.pagelink ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.pagelink ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.logo{
+    font-size: 30px;
+    padding: 20px;
+    flex: 1 0 200px;
+}
+.pagelink{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.pagelink ul li ul{
+    position: absolute;
+    border: 1px solid red;
+    width: 150px;
+    background-color: rgb(6, 112, 6);
+    display: none;
+}
+.pagelink ul li ul li{
+    padding: 10px;
+}
+.pagelink ul li:hover > ul{
+    display: inherit;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gridcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gridcontainer div{
+    background-color: pink;
+    padding: 50px;
+    flex: 1 0 400px;
+    /* flex: 1 0 200px; */
+    text-align: center;
+}
